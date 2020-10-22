@@ -1,4 +1,4 @@
-package com.marcellelek.minesweepertutorial.util;
+package ar.edu.ips.aus.seminario2.buscaminas.util;
 
 import java.util.Random;
 

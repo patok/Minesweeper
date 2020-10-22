@@ -1,10 +1,12 @@
-package com.marcellelek.minesweepertutorial;
+package ar.edu.ips.aus.seminario2.buscaminas;
 
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+
+import ar.edu.ips.aus.seminario2.buscaminas.GameEngine;
 
 public class MainActivity extends Activity {
 

@@ -1,13 +1,12 @@
-package com.marcellelek.minesweepertutorial;
+package ar.edu.ips.aus.seminario2.buscaminas;
 
 import android.content.Context;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
-import com.marcellelek.minesweepertutorial.util.Generator;
-import com.marcellelek.minesweepertutorial.util.PrintGrid;
-import com.marcellelek.minesweepertutorial.views.grid.Cell;
+import ar.edu.ips.aus.seminario2.buscaminas.util.Generator;
+import ar.edu.ips.aus.seminario2.buscaminas.util.PrintGrid;
+import ar.edu.ips.aus.seminario2.buscaminas.views.grid.Cell;
 
 /**
  * Created by Marcell on 2016. 04. 01..
@@ -15,9 +14,9 @@ import com.marcellelek.minesweepertutorial.views.grid.Cell;
 public class GameEngine {
     private static GameEngine instance;
 
-    public static final int BOMB_NUMBER = 10;
-    public static final int WIDTH = 10;
-    public static final int HEIGHT = 16;
+    public static final int BOMB_NUMBER = 2;
+    public static final int WIDTH = 5;
+    public static final int HEIGHT = 5;
 
     private Context context;
 

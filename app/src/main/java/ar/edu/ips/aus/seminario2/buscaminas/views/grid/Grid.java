@@ -1,4 +1,4 @@
-package com.marcellelek.minesweepertutorial.views.grid;
+package ar.edu.ips.aus.seminario2.buscaminas.views.grid;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 
-import com.marcellelek.minesweepertutorial.GameEngine;
+import ar.edu.ips.aus.seminario2.buscaminas.GameEngine;
 
 /**
  * Created by Marcell on 2016. 04. 14..
