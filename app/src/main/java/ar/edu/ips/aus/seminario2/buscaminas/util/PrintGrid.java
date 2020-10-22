@@ -13,7 +13,7 @@ public class PrintGrid {
             for( int y = 0 ; y < height ; y++ ){
                 printedText += String.valueOf(grid[x][y]).replace("-1", "B") + " | ";
             }
-            Log.e("",printedText);
+            Log.e("MINES",printedText);
         }
     }
 }
