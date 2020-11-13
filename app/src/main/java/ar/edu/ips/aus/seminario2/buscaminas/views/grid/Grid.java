@@ -19,7 +19,7 @@ public class Grid extends GridView{
 
         GameEngine.getInstance().createGrid(context);
 
-        setNumColumns(GameEngine.WIDTH);
+        setNumColumns(GameEngine.getInstance().WIDTH);
         setAdapter(new GridAdapter());
     }
 

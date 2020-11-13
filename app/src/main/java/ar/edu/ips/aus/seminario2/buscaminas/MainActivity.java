@@ -13,11 +13,12 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        GameEngine.getInstance().WIDTH = 16;
+        GameEngine.getInstance().HEIGHT = 16;
+        GameEngine.getInstance().BOMB_NUMBER = 34;
+
         setContentView(R.layout.activity_main);
-
-        ((TextView)findViewById(R.id.textView)).setText("ASDASDASDASD");
-
         Log.e("MainActivity","onCreate");
-        GameEngine.getInstance().createGrid(this);
     }
 }

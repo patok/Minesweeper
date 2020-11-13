@@ -14,13 +14,13 @@ import ar.edu.ips.aus.seminario2.buscaminas.views.grid.Cell;
 public class GameEngine {
     private static GameEngine instance;
 
-    public static final int BOMB_NUMBER = 2;
-    public static final int WIDTH = 5;
-    public static final int HEIGHT = 5;
+    public int BOMB_NUMBER = 2;
+    public int WIDTH = 5;
+    public int HEIGHT = 5;
 
     private Context context;
 
-    private Cell[][] MinesweeperGrid = new Cell[WIDTH][HEIGHT];
+    private Cell[][] MinesweeperGrid;
 
     public static GameEngine getInstance() {
         if( instance == null ){
@@ -42,6 +42,7 @@ public class GameEngine {
     }
 
     private void setGrid( final Context context, final int[][] grid ){
+        MinesweeperGrid= new Cell[WIDTH][HEIGHT];
         for( int x = 0 ; x < WIDTH ; x++ ){
             for( int y = 0 ; y < HEIGHT ; y++ ){
                 if( MinesweeperGrid[x][y] == null ){
