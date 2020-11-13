@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627603832834",
+    "firebase_url": "https://minesweeper-4fcb4.firebaseio.com",
+    "project_id": "minesweeper-4fcb4",
+    "storage_bucket": "minesweeper-4fcb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627603832834:android:b7c436da5e977f9da8271b",
+        "android_client_info": {
+          "package_name": "ar.edu.ips.aus.seminario2.buscaminas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627603832834-tbl96vtruhbsua7r5oh97904m8d76apn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.edu.ips.aus.seminario2.buscaminas",
+            "certificate_hash": "92ea3294e9493aaee7e690495e743df9e1461643"
+          }
+        },
+        {
+          "client_id": "627603832834-ov2bd6tfgjp4nlmhrf90ro1e1c3v43um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5-HXVsNimNrl9A5WGN9J5zIW2O0KnRHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627603832834-ov2bd6tfgjp4nlmhrf90ro1e1c3v43um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

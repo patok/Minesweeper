@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
         applicationId "ar.edu.ips.aus.seminario2.buscaminas"
-        minSdkVersion 23
+        minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -20,6 +21,11 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     testImplementation 'junit:junit:4.13.1'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    //implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+    implementation 'com.google.firebase:firebase-database'
 }
